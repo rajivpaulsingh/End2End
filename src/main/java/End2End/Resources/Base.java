@@ -1,4 +1,4 @@
-package End2End;
+package End2End.Resources;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -17,7 +17,7 @@ public class Base {
     public WebDriver InitializeDriver() throws IOException {
 
         Properties prop = new Properties();
-        FileInputStream fis = new FileInputStream("/Users/singh2_rajiv/Selenium/End2End/src/main/java/End2End/data.properties");
+        FileInputStream fis = new FileInputStream("/Users/singh2_rajiv/Selenium/End2End/src/main/java/End2End/Resources/data.properties");
         prop.load(fis);
         String browserName = prop.getProperty("browser");
         System.out.println(browserName);
