@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad5a04b-a1d1-4a6d-9daa-2116de4822cb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/End2End/PageObjects/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/End2End/PageObjects/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/End2End/PageObjects/LandingPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/End2End/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/End2End/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/End2End/PageObjects/LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/End2End/PageObjects/LandingPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/End2End/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/End2End/HomePage.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,8 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/End2End/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="390">
+              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,22 +70,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/End2End/PageObjects/LoginPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/End2End/PageObjects/LandingPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+            <state relative-caret-position="285">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#242#243#0" expanded="true" />
                 <element signature="e#277#278#0" expanded="true" />
                 <element signature="e#415#416#0" expanded="true" />
                 <element signature="e#464#465#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#646#647#0" expanded="true" />
-                <element signature="e#694#695#0" expanded="true" />
-                <element signature="e#730#731#0" expanded="true" />
-                <element signature="e#778#779#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,7 +122,9 @@
         <option value="$PROJECT_DIR$/src/main/java/End2End/data.properties" />
         <option value="$PROJECT_DIR$/src/main/java/End2End/Base.java" />
         <option value="$PROJECT_DIR$/src/main/java/End2End/Resources/Base.java" />
+        <option value="$PROJECT_DIR$/src/test/java/End2End/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/End2End/PageObjects/LandingPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/End2End/PageObjects/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/End2End/HomePage.java" />
       </list>
     </option>
@@ -178,6 +186,24 @@
               <item name="End2End" type="b2602c69:ProjectViewProjectNode" />
               <item name="End2End" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="End2End" type="462c0819:PsiDirectoryNode" />
+              <item name="PageObjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="End2End" type="b2602c69:ProjectViewProjectNode" />
+              <item name="End2End" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="End2End" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="End2End" type="b2602c69:ProjectViewProjectNode" />
+              <item name="End2End" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -203,7 +229,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567119887679" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567120811472" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -211,6 +237,10 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="End2End.PageObjects" />
+      <recent name="End2End" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/End2End/Resources" />
     </key>
@@ -227,23 +257,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.HomePage.BasePageNavigation">
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="End2End" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="End2End.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="End2End" />
-      <option name="MAIN_CLASS_NAME" value="End2End.AppTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomePage" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.HomePage (4)">
+    <configuration name="HomePage (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="End2End" />
       <extension name="coverage">
         <pattern>
@@ -259,7 +274,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePage.BasePageNavigation" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePage (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="End2End" />
       <extension name="coverage">
         <pattern>
@@ -269,7 +284,55 @@
       </extension>
       <option name="PACKAGE_NAME" value="End2End" />
       <option name="MAIN_CLASS_NAME" value="End2End.HomePage" />
-      <option name="METHOD_NAME" value="BasePageNavigation" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePage (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="End2End" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="End2End.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="End2End" />
+      <option name="MAIN_CLASS_NAME" value="End2End.HomePage" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePage (4)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="End2End" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="End2End.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="End2End" />
+      <option name="MAIN_CLASS_NAME" value="End2End.HomePage" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePage.basePageNavigation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="End2End" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="End2End.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="End2End" />
+      <option name="MAIN_CLASS_NAME" value="End2End.HomePage" />
+      <option name="METHOD_NAME" value="basePageNavigation" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -279,9 +342,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HomePage.BasePageNavigation" />
-        <item itemvalue="TestNG.HomePage" />
-        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="TestNG.HomePage (4)" />
+        <item itemvalue="TestNG.HomePage (3)" />
+        <item itemvalue="TestNG.HomePage (2)" />
+        <item itemvalue="TestNG.HomePage (1)" />
+        <item itemvalue="TestNG.HomePage.basePageNavigation" />
       </list>
     </recent_temporary>
   </component>
@@ -299,35 +364,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HomePage - 2019.08.29 at 14h 53m 55s.xml">
+    <history-entry file="HomePage_(2) - 2019.08.29 at 16h 10m 58s.xml">
+      <configuration name="HomePage (2)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePage_(3) - 2019.08.29 at 16h 11m 47s.xml">
+      <configuration name="HomePage (3)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePage - 2019.08.29 at 16h 14m 04s.xml">
       <configuration name="HomePage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePage_BasePageNavigation - 2019.08.29 at 15h 06m 32s.xml">
-      <configuration name="HomePage.BasePageNavigation" configurationId="TestNG" />
+    <history-entry file="HomePage_(4) - 2019.08.29 at 16h 15m 29s.xml">
+      <configuration name="HomePage (4)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePage - 2019.08.29 at 15h 08m 52s.xml">
+    <history-entry file="HomePage - 2019.08.29 at 16h 16m 08s.xml">
       <configuration name="HomePage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePage - 2019.08.29 at 15h 11m 42s.xml">
-      <configuration name="HomePage" configurationId="TestNG" />
+    <history-entry file="HomePage_basePageNavigation - 2019.08.29 at 16h 17m 05s.xml">
+      <configuration name="HomePage.basePageNavigation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePage - 2019.08.29 at 15h 13m 06s.xml">
-      <configuration name="HomePage" configurationId="TestNG" />
+    <history-entry file="HomePage_(1) - 2019.08.29 at 16h 17m 30s.xml">
+      <configuration name="HomePage (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePage_BasePageNavigation - 2019.08.29 at 15h 16m 43s.xml">
-      <configuration name="HomePage.BasePageNavigation" configurationId="TestNG" />
+    <history-entry file="HomePage_(2) - 2019.08.29 at 16h 18m 03s.xml">
+      <configuration name="HomePage (2)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePage - 2019.08.29 at 15h 17m 19s.xml">
-      <configuration name="HomePage" configurationId="TestNG" />
+    <history-entry file="HomePage_(3) - 2019.08.29 at 16h 18m 47s.xml">
+      <configuration name="HomePage (3)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePage - 2019.08.29 at 15h 19m 30s.xml">
-      <configuration name="HomePage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomePage - 2019.08.29 at 15h 59m 53s.xml">
-      <configuration name="HomePage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomePage_BasePageNavigation - 2019.08.29 at 16h 03m 30s.xml">
-      <configuration name="HomePage.BasePageNavigation" configurationId="TestNG" />
+    <history-entry file="HomePage_(4) - 2019.08.29 at 16h 19m 50s.xml">
+      <configuration name="HomePage (4)" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -402,30 +467,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/End2End/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/End2End/PageObjects/LandingPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+        <state relative-caret-position="285">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#242#243#0" expanded="true" />
             <element signature="e#277#278#0" expanded="true" />
             <element signature="e#415#416#0" expanded="true" />
             <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/End2End/PageObjects/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/End2End/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="390">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

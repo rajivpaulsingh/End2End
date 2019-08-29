@@ -14,28 +14,9 @@ public class LandingPage {
 
     By signin = By.cssSelector("a[class='signin']");
 
-    By email = By.id("login1");
-
-    By password = By.id("password");
-
-    By login = By.name("proceed");
-
-
 
     public WebElement getLogin() {
         return driver.findElement(signin);
-    }
-
-    public WebElement getEmail() {
-        return driver.findElement(email);
-    }
-
-    public WebElement getPassword() {
-        return driver.findElement(password);
-    }
-
-    public WebElement clickLogin() {
-        return driver.findElement(login);
     }
 
 }
