@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad5a04b-a1d1-4a6d-9daa-2116de4822cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/End2End/PageObjects/LandingPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/End2End/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/End2End/Resources/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/End2End/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/End2End/Resources/data.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/End2End/PageObjects/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/End2End/PageObjects/LandingPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/End2End/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/End2End/HomePage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -56,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/End2End/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="360">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,19 +66,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/End2End/PageObjects/LandingPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="540">
+              <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#242#243#0" expanded="true" />
                 <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#600#601#0" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
+                <element signature="e#694#695#0" expanded="true" />
+                <element signature="e#730#731#0" expanded="true" />
+                <element signature="e#778#779#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,8 +116,8 @@
         <option value="$PROJECT_DIR$/src/main/java/End2End/data.properties" />
         <option value="$PROJECT_DIR$/src/main/java/End2End/Base.java" />
         <option value="$PROJECT_DIR$/src/main/java/End2End/Resources/Base.java" />
-        <option value="$PROJECT_DIR$/src/test/java/End2End/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/End2End/PageObjects/LandingPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/End2End/HomePage.java" />
       </list>
     </option>
   </component>
@@ -201,7 +203,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567117191906" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567119887679" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -225,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.HomePage">
+  <component name="RunManager" selected="TestNG.HomePage.BasePageNavigation">
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="End2End" />
       <extension name="coverage">
@@ -277,8 +279,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HomePage" />
         <item itemvalue="TestNG.HomePage.BasePageNavigation" />
+        <item itemvalue="TestNG.HomePage" />
         <item itemvalue="JUnit.AppTest" />
       </list>
     </recent_temporary>
@@ -297,12 +299,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HomePage - 2019.08.29 at 14h 52m 59s.xml">
-      <configuration name="HomePage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomePage - 2019.08.29 at 14h 53m 26s.xml">
-      <configuration name="HomePage" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="HomePage - 2019.08.29 at 14h 53m 55s.xml">
       <configuration name="HomePage" configurationId="TestNG" />
     </history-entry>
@@ -326,6 +322,12 @@
     </history-entry>
     <history-entry file="HomePage - 2019.08.29 at 15h 19m 30s.xml">
       <configuration name="HomePage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePage - 2019.08.29 at 15h 59m 53s.xml">
+      <configuration name="HomePage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePage_BasePageNavigation - 2019.08.29 at 16h 03m 30s.xml">
+      <configuration name="HomePage.BasePageNavigation" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -400,28 +402,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/End2End/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/End2End/PageObjects/LandingPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="540">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#242#243#0" expanded="true" />
             <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/End2End/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

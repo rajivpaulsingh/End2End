@@ -12,16 +12,30 @@ public class LandingPage {
         this.driver = driver;
     }
 
-    By signin = By.cssSelector("a[href='sign_in']");
+    By signin = By.cssSelector("a[class='signin']");
 
-    By join = By.xpath("input//[@type='text']");
+    By email = By.id("login1");
+
+    By password = By.id("password");
+
+    By login = By.name("proceed");
+
 
 
     public WebElement getLogin() {
         return driver.findElement(signin);
     }
 
-    public WebElement joinNewsletter() {
-        return driver.findElement(join);
+    public WebElement getEmail() {
+        return driver.findElement(email);
     }
+
+    public WebElement getPassword() {
+        return driver.findElement(password);
+    }
+
+    public WebElement clickLogin() {
+        return driver.findElement(login);
+    }
+
 }
