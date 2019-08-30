@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 
 public class LandingPage {
 
-    public WebDriver driver;
+    public static WebDriver driver;
 
     public LandingPage(WebDriver driver) {
         this.driver = driver;
