@@ -1,10 +1,14 @@
 package End2End.Resources;
 
+//import org.apache.logging.log4j.core.util.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
@@ -45,5 +49,12 @@ public class Base {
 
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         return driver;
+    }
+
+    public void getScreenshot() throws IOException {
+
+        File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+//        FileUtils.copyFile(src, new File("/Users/singh2_rajiv/Automation/Selenium/screenshot.png"));
+
     }
 }
