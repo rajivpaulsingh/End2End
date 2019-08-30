@@ -25,7 +25,7 @@ public class ValidateTitle extends Base {
     }
 
     @Test
-    public void basePageNavigation() throws IOException {
+    public void validateTitle() throws IOException {
 
 
         LandingPage lp = new LandingPage(driver);

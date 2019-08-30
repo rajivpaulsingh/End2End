@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.aventstack:extentreports">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/aventstack/extentreports/extentreports-.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/aventstack/extentreports/extentreports--javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/aventstack/extentreports/extentreports--sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
