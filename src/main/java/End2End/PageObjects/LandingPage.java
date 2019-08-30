@@ -14,9 +14,7 @@ public class LandingPage {
 
     By signin = By.cssSelector("a[class='signin']");
 
-
     public WebElement getLogin() {
         return driver.findElement(signin);
     }
-
 }
