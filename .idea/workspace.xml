@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ad5a04b-a1d1-4a6d-9daa-2116de4822cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/End2End/PageObjects/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/End2End/PageObjects/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/End2End/PageObjects/LandingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/End2End/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/End2End/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/End2End/PageObjects/LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/End2End/PageObjects/LandingPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/End2End/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/End2End/HomePage.class" afterDir="false" />
-    </list>
+    <list default="true" id="3ad5a04b-a1d1-4a6d-9daa-2116de4822cb" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/End2End/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,8 +130,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2846" />
-    <option name="y" value="30" />
+    <option name="x" value="2944" />
+    <option name="y" value="32" />
     <option name="width" value="1291" />
     <option name="height" value="1277" />
   </component>
@@ -229,7 +222,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567120811472" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567182002324" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -257,7 +250,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.HomePage (4)">
+  <component name="RunManager" selected="TestNG.HomePage.basePageNavigation">
     <configuration name="HomePage (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="End2End" />
       <extension name="coverage">
@@ -342,11 +335,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HomePage.basePageNavigation" />
         <item itemvalue="TestNG.HomePage (4)" />
         <item itemvalue="TestNG.HomePage (3)" />
         <item itemvalue="TestNG.HomePage (2)" />
         <item itemvalue="TestNG.HomePage (1)" />
-        <item itemvalue="TestNG.HomePage.basePageNavigation" />
       </list>
     </recent_temporary>
   </component>
@@ -396,7 +389,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2846" y="30" width="1291" height="1277" extended-state="0" />
+    <frame x="2944" y="32" width="1291" height="1277" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25380304" />
@@ -497,8 +490,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/End2End/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
