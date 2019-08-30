@@ -15,7 +15,7 @@ public class ValidateTitle extends Base {
 
 
     @BeforeTest
-    public void initialize() throws IOException {
+    public void setup() throws IOException {
         driver = InitializeDriver();
         driver.get("http://www.rediff.com/");
     }
@@ -33,7 +33,7 @@ public class ValidateTitle extends Base {
 
     @AfterTest
     public void teardown() {
-        driver.close();
+        driver.quit();
     }
 
 }
