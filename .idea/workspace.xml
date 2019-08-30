@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad5a04b-a1d1-4a6d-9daa-2116de4822cb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/End2End/Resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/End2End.iml" beforeDir="false" afterPath="$PROJECT_DIR$/End2End.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/End2End/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/End2End/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/End2End/ValidateTitle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/End2End/ValidateTitle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/End2End/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/End2End/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/End2End/PageObjects/LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/End2End/PageObjects/LandingPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/End2End/PageObjects/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/End2End/PageObjects/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/End2End/Resources/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/End2End/Resources/Base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/End2End/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/End2End/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/End2End/ValidateTitle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/End2End/ValidateTitle.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/End2End/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="105">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -37,20 +46,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="540">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/End2End/Resources/Base.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/End2End/Resources/log4j2.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="300">
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -58,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/End2End/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+            <state relative-caret-position="180">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1228#1229#0" expanded="true" />
@@ -72,9 +78,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/End2End/ValidateTitle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+            <state relative-caret-position="510">
+              <caret line="34" column="49" lean-forward="true" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#792#793#0" expanded="true" />
                 <element signature="e#813#814#0" expanded="true" />
               </folding>
@@ -87,15 +94,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/End2End/Resources/data.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -123,9 +121,10 @@
         <option value="$PROJECT_DIR$/src/main/java/End2End/PageObjects/LandingPage.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/java/End2End/Resources/Base.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/End2End/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/End2End/Resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/test/java/End2End/ValidateTitle.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -137,8 +136,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2944" />
-    <option name="y" value="32" />
+    <option name="x" value="2928" />
+    <option name="y" value="50" />
     <option name="width" value="1291" />
     <option name="height" value="1277" />
   </component>
@@ -220,9 +219,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567189871655" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567190844108" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -248,23 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/singh2_rajiv/Selenium/End2End/testng.xml">
-    <configuration name="HomePage (4)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="End2End" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="End2End.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="End2End" />
-      <option name="MAIN_CLASS_NAME" value="End2End.HomePage" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.ValidateTitle.basePageNavigation">
     <configuration name="HomePage.basePageNavigation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="End2End" />
       <extension name="coverage">
@@ -277,6 +260,22 @@
       <option name="MAIN_CLASS_NAME" value="End2End.HomePage" />
       <option name="METHOD_NAME" value="basePageNavigation" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidateTitle (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="End2End" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="End2End.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="End2End" />
+      <option name="MAIN_CLASS_NAME" value="End2End.ValidateTitle" />
       <properties />
       <listeners />
       <method v="2">
@@ -329,11 +328,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ValidateTitle.basePageNavigation" />
+        <item itemvalue="TestNG.ValidateTitle (1)" />
         <item itemvalue="TestNG./Users/singh2_rajiv/Selenium/End2End/testng.xml" />
         <item itemvalue="TestNG.ValidateTitle" />
-        <item itemvalue="TestNG.ValidateTitle.basePageNavigation" />
         <item itemvalue="TestNG.HomePage.basePageNavigation" />
-        <item itemvalue="TestNG.HomePage (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -351,9 +350,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HomePage_(2) - 2019.08.29 at 16h 18m 03s.xml">
-      <configuration name="HomePage (2)" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="HomePage_(3) - 2019.08.29 at 16h 18m 47s.xml">
       <configuration name="HomePage (3)" configurationId="TestNG" />
     </history-entry>
@@ -381,9 +377,12 @@
     <history-entry file="_Users_singh2_rajiv_Selenium_End2End_testng_xml - 2019.08.30 at 11h 22m 15s.xml">
       <configuration name="/Users/singh2_rajiv/Selenium/End2End/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ValidateTitle_(1) - 2019.08.30 at 11h 41m 28s.xml">
+      <configuration name="ValidateTitle (1)" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2944" y="32" width="1291" height="1277" extended-state="0" />
+    <frame x="2928" y="50" width="1291" height="1277" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25380304" />
@@ -423,20 +422,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/End2End/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/End2End/Resources/data.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/End2End/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -472,13 +457,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/End2End/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/End2End/Resources/Base.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/End2End/Resources/data.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -489,17 +488,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/End2End/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+        <state relative-caret-position="180">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1228#1229#0" expanded="true" />
@@ -508,11 +500,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/End2End/Resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/End2End/ValidateTitle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        <state relative-caret-position="510">
+          <caret line="34" column="49" lean-forward="true" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#792#793#0" expanded="true" />
             <element signature="e#813#814#0" expanded="true" />
           </folding>
@@ -522,6 +529,30 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -545,6 +576,18 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>End2End</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>11.0</last-edited>
@@ -559,6 +602,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: com.beust:jcommander:1.72</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

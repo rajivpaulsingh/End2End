@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="End2End" target="1.5" />
+      <module name="End2End" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>
