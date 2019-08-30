@@ -3,12 +3,20 @@ package End2End;
 import End2End.PageObjects.LandingPage;
 import End2End.PageObjects.LoginPage;
 import End2End.Resources.Base;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
 
 public class HomePage extends Base {
+
+    @BeforeTest
+    public void initialize() throws IOException {
+        driver = InitializeDriver();
+        driver.get("http://www.rediff.com/");
+    }
 
     @Test(dataProvider = "getData")
     public void basePageNavigation(String Username, String Password) throws IOException {
@@ -23,8 +31,6 @@ public class HomePage extends Base {
         login.getEmail().sendKeys(Username);
         login.getPassword().sendKeys(Password);
         login.clickLogin().click();
-
-        driver.close();
 
     }
 
@@ -44,5 +50,10 @@ public class HomePage extends Base {
         data[1][1] = "5678";
 
         return data;
+    }
+
+    @AfterTest
+    public void teardown() {
+        driver.close();
     }
 }

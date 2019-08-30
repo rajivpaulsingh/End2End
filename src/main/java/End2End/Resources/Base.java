@@ -20,7 +20,7 @@ public class Base {
         FileInputStream fis = new FileInputStream("/Users/singh2_rajiv/Selenium/End2End/src/main/java/End2End/Resources/data.properties");
         prop.load(fis);
         String browserName = prop.getProperty("browser");
-        System.out.println(browserName);
+        System.out.println("Browser used: " + browserName);
 
         //Chrome browser
         if(browserName.equalsIgnoreCase("chrome")) {

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/singh2_rajiv/Selenium/End2End">
+        <classes>
+            <class name="End2End.HomePage">
+                <methods>
+                    <include name="basePageNavigation"/>
+                </methods>
+            </class>
+            <class name="End2End.ValidateTitle">
+                <methods>
+                    <include name="basePageNavigation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
